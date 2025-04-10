@@ -1,4 +1,4 @@
-class AddNUm{
+class AddNum{
     int a,b;
     public AddNum(int x, int y){
         a=x;    
@@ -7,5 +7,9 @@ class AddNUm{
     public void sum(){
         int c = a+b;
         System.out.println(c);
+    }
+    public static void main(String[] args) {
+        AddNum obj = new AddNum(10,20);
+        obj.sum();
     }
 }

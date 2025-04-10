@@ -11,7 +11,7 @@ class student{
         System.out.println("Age: "+age);
     }
 }
-public class Main {
+public class Constructor {
     public static void main(String[] args) {
         student s1 = new student("kanon", 20);
         s1.showdetails();

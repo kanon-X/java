@@ -1,4 +1,4 @@
-public class c {
+public class ReplacementChar {
     public static void main(String[] args) {
         String name = "Aman";
         String name2 = name.replace( 'a','b');
