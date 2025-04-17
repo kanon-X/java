@@ -2,7 +2,7 @@
  Use nested loops to traverse through the elements of the array and increment a counter 
  whenever the element is equal to 1. Print the final count of 1s found in the array.*/
 
-public class arraySeaarch {
+public class arraySearch {
     public static void main(String[] args) {
         int count = 0;
         int anArray[][] = {
